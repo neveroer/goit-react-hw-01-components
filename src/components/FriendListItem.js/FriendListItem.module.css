@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto 20px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px 0 rgb(100, 102, 126);
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}

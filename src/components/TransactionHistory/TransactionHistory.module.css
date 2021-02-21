@@ -1,0 +1,16 @@
+.transactionHistory {
+  padding: 20px;
+  margin: 0 auto 20px;
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px 0 rgb(100, 102, 126);
+  border-radius: 5px;
+}
+
+.mainRaw {
+  background-color: rgb(161, 255, 242);
+}
+
+.raw {
+  background-color: rgb(255, 247, 210);
+}
