@@ -1,6 +1,4 @@
 .item {
-  display: flex;
-  align-items: center;
   padding: 20px;
   margin: 0 auto 20px;
   width: 300px;
@@ -11,9 +9,12 @@
 
 li {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .status {
+  display: inline-flex;
   width: 15px;
   height: 15px;
   margin-right: 10px;
@@ -26,4 +27,8 @@ li {
 
 .offline {
   background-color: red;
+}
+
+.avatar {
+  margin-left: 10px;
 }

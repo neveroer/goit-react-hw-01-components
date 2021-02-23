@@ -6,9 +6,12 @@ function FriendList({ friends }) {
     <div>
       <ul className="friend-list">
         {friends.map(({ name, avatar, isOnline, id }) => (
-          <li key={id} className="item">
-            <FriendListItem avatar={avatar} name={name} isOnline={isOnline} />
-          </li>
+          <FriendListItem
+            avatar={avatar}
+            name={name}
+            isOnline={isOnline}
+            key={id}
+          />
         ))}
       </ul>
     </div>
